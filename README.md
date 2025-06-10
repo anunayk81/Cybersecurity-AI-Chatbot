@@ -1,2 +1,20 @@
-# Cybersecurity-AI-Chatbot
-Cybersecurity AI Chatbot is a Python-based interactive assistant that helps users by answering cybersecurity-related questions. It uses OpenAI's GPT model to provide helpful, accurate responses on topics like phishing, malware, network security, and more.
+# Cybersecurity AI Chatbot
+
+An AI-powered chatbot built with Python that answers cybersecurity-related questions using OpenAI's GPT model.
+
+## Setup
+
+1. Install Python 3.10 or newer.
+2. Install the required libraries:
+    ```bash
+    pip install openai python-dotenv
+    ```
+3. Create a `.env` file using the `.env.example` template and add your OpenAI API key.
+4. Run the bot:
+    ```bash
+    python main.py
+    ```
+
+## License
+
+This project is licensed under the MIT License.
